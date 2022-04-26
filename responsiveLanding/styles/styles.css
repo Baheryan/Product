@@ -1,0 +1,115 @@
+@import url(normalize.css); 
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2E35;   
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+._container {
+    margin: 0 auto;
+}
+
+.header__container {
+    padding: 13px 0 12px 28px;
+    width: 411px;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.header__logo {
+    width: 154px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.header__logo__text {
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+}
+
+.header__nav {
+    margin-top: 30px;
+}
+
+.header__menu li {
+    color:#ffff;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 10px;
+    transition: ease-in-out 0.6s;
+    cursor: pointer;
+}
+
+.menu__link {
+    transition: color ease-in-out 0.3s;
+}
+
+.menu__link:hover {
+    transition: color ease-in-out 0.5s;
+    color:aquamarine;
+}
+
+.header__menu li:nth-child(4) {
+    margin-right: 0;
+}
+
+.header__button__container {
+    width: 266px;
+}
+
+.square__button {
+    width: 102px;
+    height: 43px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: solid 1px #ffff;
+    background-color: #1F2E35 ;
+    color: #ffff;
+    cursor: pointer;
+    transition: background ease-in-out 0.5s;
+}
+
+.square__button:hover {
+    border-color: #02897A;
+    background-color: #02897A;
+    transition: background ease-in-out 0.5s;
+}
+
+.color__switch {
+    cursor: pointer;
+}
+
+.buttonMenu__container {
+    position: absolute;
+    top: 22px;
+    left: 322px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.buttonMenu__layer {
+    background-color: #ffff;
+    width: 21px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+    
+
+
+
+
+
+
