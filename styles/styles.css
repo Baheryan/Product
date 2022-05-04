@@ -14,12 +14,12 @@ body {
 
 .header__container {
     padding: 17px 0 12px 32px;
-    width: 425px;
+    width: 100%;
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
-}
+}   
 
 .header__logo {
-    width: 169px;
+    width: 177px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -32,19 +32,30 @@ body {
     font-size: 30px;
 }
 
-.header__nav {
-    position:absolute;
-    top: -300px;
+.header__nav, .header__button__container, .color__switch {
+    position: absolute;
+    top: -400px;
+    transition: ease-in-out 0.5s;
 }
 
 .header__nav.active {
     position: static;
-    top: 0;
     margin-top: 30px;
     display: flex;
+    top: 0;
     justify-content: space-between;
     flex-direction: column;
-    transition: all 0.5s ease;
+    transition: all ease 0.5s;
+}
+
+.header__button__container.active{
+    position: static;
+    transition: ease-in-out 0.5s;
+}
+
+.color__switch.active {
+    position: static;
+    transition: ease-in-out 0.5s;
 }
 
 .header__menu {
@@ -53,7 +64,6 @@ body {
 
 .header__menu li:nth-child(odd) {
     width: 65px;
-    margin-right: 0;
 }
 
 .header__menu li {
@@ -80,6 +90,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     height: 90px;
+    transition: ease-in-out 0.5s;
 }
 
 .square__button {
@@ -101,16 +112,16 @@ body {
     transition: background ease-in-out 0.5s;
 }
 
-.buttonMenu {
+ .buttonMenu {
     cursor: pointer;
     width: 21px;
     height: 20px;
     position: absolute;
     top: 24px;
-    left: 359px;
-}
+    right: 20px;
+}  
 
-.buttonMenu span {
+ .buttonMenu span {
     background-color: #ffff;
     border-radius: 10px;
     width: 23px;
@@ -151,7 +162,7 @@ body {
 .buttonMenu.active::after {
     top: 9px;
     transform: rotate(-45deg);
-}
+} 
 
 .buttonMenu.active span {
     display: none;
@@ -163,31 +174,24 @@ body {
     margin-top: 15px;
 }
 
-@media (min-width:768px) {
-    .header__container {
-        width: 100%;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    } 
+@media (min-width: 768px) {
 
-    .header__nav {
-        align-items: center;
-        position: static;
+    .header__container {
         display: flex;
-        justify-content: space-between;
-        width: 565px;
-        padding-left: 15px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 10px 20px 10px;
     }
 
     .header__menu {
-        display: flex;
+        height: auto;
+        width: auto;
     }
 
     .header__menu li {
-        margin-right: 15px;
-        padding: 3px;   
+        padding: 3px;
+        margin-right: 10px;
+        margin-bottom: 0;
     }
 
     .header__menu li:nth-child(4) {
@@ -198,39 +202,35 @@ body {
         display: none;
     }
 
+    .header__button__container, .header__nav, .color__switch {
+        position: static;
+    }
+
     .header__button__container {
-        width: 144px;
-        flex-direction: row;
-        align-items: center;
+        flex-direction:  row;
+        width: 150px;
+        height: auto;
     }
 
     .color__switch {
-        margin-top: 0;
-        height: 45px;
+        margin: 0;
+    }
+
+    .header__menu {
+        display: flex;
     }
 }
 
 @media (min-width: 1024px) {
     .header__container {
-        width: 1157px;
-        justify-content: space-between;
-        margin: auto;
+        justify-content: space-around;
         box-shadow: none;
-        padding: 0 35px;
-    }
-
-    .header__logo {
-        width: 178px;
-    }
-
-    .header__nav {
-        padding-left: 50px;
-        width: 866px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .header__button__container {
-        width: 277px;
-
+        width: 270px;
     }
 
     .square__button {
@@ -238,6 +238,13 @@ body {
         height: 43px;
     }
 }
+    
+
+
+
+
+
+
 
     
 
