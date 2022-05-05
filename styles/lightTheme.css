@@ -1,0 +1,242 @@
+@import url(normalize.css); 
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;   
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.header__container {
+    padding: 17px 0 12px 32px;
+    width: 100%;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+}   
+
+.header__logo {
+    width: 177px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.header__logo__text {
+    font-weight: 700;
+    color: #173A56;
+    ;
+    font-size: 30px;
+}
+
+.header__nav, .header__button__container, .color__switch {
+    position: absolute;
+    top: -400px;
+    transition: ease-in-out 0.5s;
+}
+
+.header__nav.active {
+    position: static;
+    margin-top: 30px;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: all ease 0.5s;
+}
+
+.header__button__container.active{
+    position: static;
+    transition: ease-in-out 0.5s;
+}
+
+.color__switch.active {
+    position: static;
+    transition: ease-in-out 0.5s;
+}
+
+.header__menu {
+    width: 88px;
+}
+
+.header__menu li:nth-child(odd) {
+    width: 65px;
+}
+
+.header__menu li {
+    color: #22343D;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.6s;
+    cursor: pointer;
+}
+
+.menu__link {
+    transition: color ease-in-out 0.3s;
+}
+
+.menu__link:hover {
+    transition: color ease-in-out 0.5s linear;
+    color: black;
+}
+
+.header__button__container {
+    display: flex;
+    width: 65px;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90px;
+    transition: ease-in-out 0.5s;
+}
+
+.square__button {
+    width: 65px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: solid 1px #BCD0E5;
+    background-color: #ffffff;
+    color: #173A56;
+    cursor: pointer;
+    transition: background ease-in-out 0.5s;
+}
+
+.square__button:hover {
+    border-color: #02897A;
+    background-color: #02897A;
+    transition: background ease-in-out 0.5s;
+}
+
+ .buttonMenu {
+    cursor: pointer;
+    width: 21px;
+    height: 20px;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+}  
+
+ .buttonMenu span {
+    background-color: #173A56;
+    border-radius: 10px;
+    width: 23px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    transition: ease-in-out 0.4s;
+}
+
+.buttonMenu::before {
+    content: '';
+    background-color: #173A56;
+    border-radius: 10px;
+    width: 23px;
+    height: 3px;
+    position: absolute;
+    top: 1px;
+    transition: ease-in-out 0.4s;
+}
+
+.buttonMenu::after {
+    content: '';
+    background-color: #173A56;
+    border-radius: 10px;
+    width: 23px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    transition: ease-in-out 0.4s;
+}
+
+.buttonMenu.active::before {
+    top: 9px;
+    transform: rotate(45deg);
+}
+
+.buttonMenu.active::after {
+    top: 9px;
+    transform: rotate(-45deg);
+} 
+
+.buttonMenu.active span {
+    display: none;
+}
+
+.color__switch {
+    cursor: pointer;
+    width: 35px;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+
+    .header__container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .header__menu {
+        height: auto;
+        width: auto;
+    }
+
+    .header__menu li {
+        padding: 3px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .header__menu li:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .buttonMenu {
+        display: none;
+    }
+
+    .header__button__container, .header__nav, .color__switch {
+        position: static;
+    }
+
+    .header__button__container {
+        flex-direction:  row;
+        width: 150px;
+        height: auto;
+    }
+
+    .color__switch {
+        margin: 0;
+    }
+
+    .header__menu {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__container {
+        justify-content: space-around;
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header__button__container {
+        width: 270px;
+    }
+
+    .square__button {
+        width: 102px;
+        height: 43px;
+    }
+}
