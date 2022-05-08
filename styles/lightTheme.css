@@ -370,7 +370,7 @@ body {
     .banner__container {
         width: 1218px;
         padding: 0;
-        margin-top: 120px;
+        margin: 120px auto;
         justify-content: space-between;
     }
 
