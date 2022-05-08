@@ -38,9 +38,11 @@ body {
     position: absolute;
     top: -400px;
     transition: ease-in-out 0.5s;
+    transform: translateY(-400px);
 }
 
 .header__nav.active {
+    transform: translateY(0px);
     position: static;
     margin-top: 30px;
     display: flex;
@@ -51,11 +53,13 @@ body {
 }
 
 .header__button__container.active{
+    transform: translateY(0px);
     position: static;
     transition: ease-in-out 0.5s;
 }
 
 .color__switch.active {
+    transform: translateY(0px);
     position: static;
     transition: ease-in-out 0.5s;
 }
