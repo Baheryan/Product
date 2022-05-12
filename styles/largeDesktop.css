@@ -1,0 +1,26 @@
+@media (min-width: 1280px) {
+    .header__container {
+        padding-top: 20px;
+        width: 1218px;
+        margin: auto;
+        padding-bottom: 0;
+        justify-content: space-between;
+    }
+
+    .banner__container {
+        width: 1218px;
+        padding: 0;
+        margin: 120px auto;
+        justify-content: space-between;
+    }
+
+    .banner__info__container {
+        width: 538px;
+        
+    }
+
+    .banner__logo {
+        margin-left: 0;
+        width: 535px;
+    }
+}

@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+    .header__container {
+        justify-content: space-around;
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header__button__container {
+        width: 270px;
+    }
+
+    .square__button {
+        width: 102px;
+        height: 43px;
+    }
+
+    .banner__container {
+        flex-direction: row;
+    }
+
+    .banner__text__container {
+        text-align: start;
+    }
+
+    .banner__logo {
+        margin-top: 0;
+        margin-left: 60px;
+    }
+}
