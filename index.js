@@ -10,24 +10,16 @@ buttonMenu.onclick = function () {
 }
 
 
-//color theme switch
+//theme color switch
 
-// var switchMode = document.getElementById("colorSwitch");
 
-// switchMode.onclick = function() {
+const body = document.getElementById("body");
+const colorSwitch = document.getElementById("colorSwitch");
 
-//     var theme = document.getElementById("theme");
-
-//     if (theme.getAttribute("href") == "styles/styles.css") {
-
-//         theme.href = "styles/lightTheme.css";
-//     }
-
-//     else {
-
-//         theme.href = "styles/styles.css";
-//     }
-
-// }
+colorSwitch.onclick = function() {
+    body.classList.toggle("colored");
+    var elementsForSwitch = document.getElementsByClassName("switched");
+    console.log(typeof elementsForSwitch);
+}
 
 
