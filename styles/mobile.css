@@ -10,10 +10,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-body.active {   
+body.colored {   
     background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;
 }
 
 .header__container {
