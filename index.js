@@ -19,7 +19,5 @@ const colorSwitch = document.getElementById("colorSwitch");
 colorSwitch.onclick = function() {
     body.classList.toggle("colored");
     var elementsForSwitch = document.getElementsByClassName("switched");
-    console.log(typeof elementsForSwitch);
+    elementsForSwitch.classList.toggle("colored");
 }
-
-
