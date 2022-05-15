@@ -10,10 +10,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-body.colored {   
-    background-color: #ffffff;
-}
-
 .header__container {
     padding: 17px 0 12px 32px;
     width: 100%;
@@ -284,4 +280,41 @@ body.colored {
 .banner__logo {
     margin-top: 84px;
     width: 100%;
+}
+
+/*alternative styles */
+
+body.colored {   
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.colored.header__menu li, .header__logo__text.colored {
+    color: #1F2E35;
+}
+
+.header__button.colored {
+    background-color: #ffffff;
+    color: #173A56;
+    border: solid 1px #BCD0E5;
+    transition: border 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.header__button.colored:hover {
+    border-color: #02897A;
+    background-color: #02897A;
+    color: #ffffff;
+    transition: border 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.banner__heading.colored, .banner__paragraph.colored, .userStatisticText__container.colored, .colored::placeholder {
+    color: #1F2E35;
+}
+
+.colored.buttonMenu span, .colored.buttonMenu::after, .colored.buttonMenu::before{
+    background-color: #1F2E35;
+}
+
+.form__emailField.colored {
+    background-color: #ffffff;
 }
