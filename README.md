@@ -16,7 +16,7 @@ Front-End Development
 ### Description: 
 ***
 #### Product
-Product is a platform for your best business meetings. The main feature of this project is adaptability. It will be conveniently and reliabily displayed on every of your devices what will make your meeting reliable as well as comfortable. Equally enjoyable is theme  switching feature, which allows the user to manipulate the color of the site as needed. There is also embedded navigation map, registration and contact form, enabling you to join the work quickly and deliver your message as well.
+Product is a platform for your best business meetings. The main feature of this project is adaptability. It will be conveniently and reliabily displayed on every device what will make future meeting reliable as well as comfortable. Equally enjoyable is theme switching feature, which allows user to manipulate the color of the site as needed. There is also embedded navigation map, registration and contact form, enabling the customer to join the work quickly and deliver messages as well.
 ***
 
 ## Desktop version
