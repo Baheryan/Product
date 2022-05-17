@@ -1,5 +1,5 @@
 <h1 align="center">Hello guest! 👋 Serhiy Baheryan</h>,
-Front-End Development
+Front-End Developer
 <h3 align="center">Hi there! I'm Serhiy, pasionate junior front-end developer from Ukraine. It's always a pleasure for me to do content on WebDevelopment. I really enjoy learning programming languages like JS(HTML and CSS are not an exception :D ) It inspires me and stimulate to self-improvement, creation of more and more beautiful and reliable projects. You can see one of them here</h3>
 
 
