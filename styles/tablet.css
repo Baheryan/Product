@@ -50,8 +50,10 @@
         display: flex;
     }
     
-    .story__report {
-        width: 310px;
+    .story__report__container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .story__report:nth-child(3) {
