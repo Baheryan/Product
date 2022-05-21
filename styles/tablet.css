@@ -55,13 +55,9 @@
         flex-wrap: wrap;
         width: 100%;
     }
-
-    .story__report:nth-child(3) {
-        margin-right: 0;
+    
+    .story__report {
+        width: 348px;
+        margin-right: 20px;
     }
-
-    .story__report:nth-child(6) {
-        margin-right: 0;
-    }
-
 }
