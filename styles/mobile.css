@@ -428,3 +428,24 @@ body.colored {
 .form__emailField.colored {
     background-color: #ffffff;
 }
+
+.story__heading.colored, .story__paragraph.colored {
+    color: #1F2E35;
+}
+
+.button__text.colored {
+    color: #1F2E35;
+}
+
+.button__arrow__container.colored {
+    border-color: #1F2E35;
+}
+
+.arrow__base.colored {
+    border-color: #1F2E35;
+}
+
+.colored.arrow__base::before {
+    background: #1F2E35;
+}
+
