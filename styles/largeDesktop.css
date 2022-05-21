@@ -23,4 +23,14 @@
         margin-left: 0;
         width: 535px;
     }
+    
+    .story__container {
+        width: 1218px;
+        padding: 0;
+        margin: 90px auto 0;
+    }
+
+    .story__report {
+        width: 390px;
+    }
 }
