@@ -533,7 +533,6 @@ body {
     float: left;
 }
 
-
 /*alternative styles */
 
 body.colored {   
@@ -591,3 +590,37 @@ body.colored {
     background: #1F2E35;
 }
 
+.contact__heading.colored, .contact__form__heading.colored {
+    color: #252B42;
+}
+
+.contact__paragraph.colored {
+    color:  #374754;
+}
+
+.contact__form.colored {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-radius: 20px;
+}
+
+.contact__nameField, .contact__emailField, .contact__textArea {
+    background-color: #F5F5F5;
+    border-color: #E8E8E8;
+}
+
+.instagram__link__container.colored, .facebook__link__container.colored, .twitter__link__container.colored {
+    background-color: #EDFFFC;
+}
+
+.instagram__link__container.colored:hover {
+    background-color: #e1306c;
+}
+
+.facebook__link__container.colored:hover {
+    background-color: #3B5999;
+}
+
+.twitter__link__container.colored:hover {
+    background-color: rgb(8, 136, 247);
+}
