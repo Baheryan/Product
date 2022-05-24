@@ -37,4 +37,11 @@
      .contact__map {
         width: 990px;
     }
+    
+    .footer__container {
+        width: 1218px;
+        margin: 140px auto 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
