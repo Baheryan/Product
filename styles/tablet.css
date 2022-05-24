@@ -67,4 +67,30 @@
         border: 1px solid #464646;
         padding: 50px;
     }
+    
+    .footer__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer__nav__container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 945px;
+        margin-top: 0;
+    }
+
+    .footer__nav__service__container {
+        margin-top: 0;
+    }
+
+    .footer__nav__info__container, .footer__nav__service__container, .footer__menu {
+        align-items: flex-start;
+    }
+
+    .footer__form {
+        margin-top: 0;
+        align-items: flex-start;
+    }
 }
