@@ -736,3 +736,11 @@ body.colored {
 .twitter__link__container.colored:hover {
     background-color: rgb(8, 136, 247);
 }
+
+.footer__logo__text.colored, .menu__link.colored, .footer__form__heading.colored, .footer__nav__heading.colored {
+    color: #1F2E35;
+}
+
+.menu__link.colored:hover {
+    color: #02897A;
+}
