@@ -248,6 +248,7 @@ body {
     border: none;
     background-color: #1F2E35;
     color: #ffffff;
+    font-size: 13px;
 }
 
 ::placeholder {
