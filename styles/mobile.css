@@ -429,6 +429,13 @@ body {
     width: 150px;
 }
 
+.links__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 150px;
+}
+
 .instagram__link__container, .facebook__link__container, .twitter__link__container {
     display: flex;
     justify-content: center;
