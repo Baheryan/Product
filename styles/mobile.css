@@ -533,6 +533,118 @@ body {
     float: left;
 }
 
+.footer__container {
+    padding-left: 26px;
+    padding-right: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.footer__info__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+}
+
+.footer__logo__container {
+    display: flex;
+    align-items: center;
+    width: 169px;
+    justify-content: space-between;
+}
+
+.footer__logo__text {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer__links__container {
+    margin-top: 0;
+}
+
+.footer__nav__container { 
+    margin-top: 36px;
+}
+
+.footer__nav__heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer__nav__info__container, .footer__nav__service__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__nav__service__container {
+    margin-top: 42px;
+}
+
+.footer__menu {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu a {
+    padding: 3px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer__menu li {
+    list-style-type: none;
+}
+
+.footer__form {
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer__form__heading {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.footer__input {
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 100%;
+    height: 51px;
+    outline: 0;
+}
+
+.footer__button {
+    width: 130px;
+    height: 40px;
+    background-color: #02897A;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
 /*alternative styles */
 
 body.colored {   
