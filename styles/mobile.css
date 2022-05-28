@@ -232,7 +232,7 @@ body {
     padding-right: 7px;
 }
 
-.form__button {
+.banner__button {
     background-color: #02897A;
     width: 120px;
     height: 50px;
@@ -243,7 +243,7 @@ body {
     cursor: pointer;
 }
 
-.form__emailField {
+.banner__emailField {
     outline: 0;
     border: none;
     background-color: #1F2E35;
