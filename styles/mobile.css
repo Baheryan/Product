@@ -686,8 +686,9 @@ body.colored {
     background-color: #1F2E35;
 }
 
-.form__emailField.colored {
+.banner__emailField.colored {
     background-color: #ffffff;
+    color: #22343D;
 }
 
 .story__heading.colored, .story__paragraph.colored {
