@@ -31,11 +31,7 @@
     .story__report {
         width: 310px;
     }
-
-    .story__report:nth-child(3) {
-        margin-right: 0;
-    }
-
+    
     .story__report:nth-child(6) {
         margin-right: 0;
     }
