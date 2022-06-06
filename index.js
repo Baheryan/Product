@@ -22,3 +22,32 @@ colorSwitch.onclick = function() {
         menuElements.classList.toggle("colored");
     });
 }
+
+//Banner form validation
+
+const form = document.getElementById("bannerForm");
+const emailInput = document.getElementById("bannerInput");
+const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+form.addEventListener("submit", element => {
+    validation();
+} )
+
+form.addEventListener('mouseout', function removeClass() {
+    form.classList.remove("invalid");
+    form.classList.remove("valid");
+})
+
+const validation = function () {
+    let emailInputValue = document.getElementById("bannerInput").value;
+    if (emailInputValue.match(pattern)) {
+        form.classList.add("valid");
+        form.classList.remove("invalid");
+    } else {
+        form.classList.remove("valid");
+        form.classList.add("invalid");
+    }
+}
+
+
+
