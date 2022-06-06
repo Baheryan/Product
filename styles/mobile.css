@@ -241,6 +241,12 @@ body {
     border-color: green;
 }
 
+@keyframes invalid {
+    25% {transform: translateX(4px);}
+    50% {transform: translateX(-4px);}
+    75% {transform: translateX(4px);}
+}
+
 .banner__button {
     background-color: #02897A;
     width: 120px;
