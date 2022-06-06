@@ -232,6 +232,15 @@ body {
     padding-right: 7px;
 }
 
+.banner__form.invalid {
+    border-color: red;
+    animation: invalid 500ms;
+}
+
+.banner__form.valid {
+    border-color: green;
+}
+
 .banner__button {
     background-color: #02897A;
     width: 120px;
