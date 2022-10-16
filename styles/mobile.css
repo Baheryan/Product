@@ -75,7 +75,7 @@ body {
 }
 
 .header__menu {
-    width: 88px;
+    width: max-content;
 }
 
 .header__menu li:nth-child(odd) {
@@ -102,7 +102,7 @@ body {
 
 .header__button__container {
     display: flex;
-    width: 65px;
+    width: max-content;
     justify-content: space-between;
     flex-direction: column;
     height: 90px;
