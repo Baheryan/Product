@@ -471,7 +471,7 @@ body {
 .instagram__link__container:hover {
     background-color: #e1306c;
     transition: all ease-in-out 0.5s;
-    transform: translateY(-10px);
+    transform: scale(1.2);
 }
 
 .instagram__link__container:hover i {
@@ -481,7 +481,7 @@ body {
 .facebook__link__container:hover {
     background-color: #3B5999;
     transition: all ease-in-out 0.5s;
-    transform: translateY(-10px);
+    transform: scale(1.2);
 }
 
 .facebook__link__container:hover i {
@@ -492,7 +492,7 @@ body {
 .twitter__link__container:hover {
     background-color: rgb(8, 136, 247);
     transition: all ease-in-out 0.5s;
-    transform: translateY(-10px);
+    transform: scale(1.2);
 }
 
 .twitter__link__container:hover i {
