@@ -67,12 +67,6 @@
         border: 1px solid #464646;
         padding: 50px;
     }
-    
-    .footer__container {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
 
     .footer__nav__container {
         display: flex;
