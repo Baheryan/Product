@@ -33,6 +33,11 @@
     .story__report {
         width: 349px;
     }
+
+    .contact__container {
+        padding-left: 262px;
+        padding-right: 262px;
+    }
     
      .contact__map {
         width: 990px;
