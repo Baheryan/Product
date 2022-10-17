@@ -68,6 +68,10 @@
         padding: 50px;
     }
 
+    .footer__content-container {
+        flex-direction: row;
+    }
+
     .footer__nav__container {
         display: flex;
         justify-content: space-evenly;
