@@ -673,6 +673,10 @@ body {
     cursor: pointer;
 }
 
+.footer__copyright {
+    color: #ffffff;
+}
+
 /*alternative styles */
 
 body.colored {   
@@ -772,4 +776,8 @@ body.colored {
 
 .menu__link.colored:hover {
     color: #02897A;
+}
+
+.footer__copyright.colored {
+    color: #22343D;
 }
