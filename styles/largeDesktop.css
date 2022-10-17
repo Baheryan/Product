@@ -38,10 +38,8 @@
         width: 990px;
     }
     
-    .footer__container {
-        width: 1218px;
-        margin: 140px auto 50px;
-        padding-left: 0;
-        padding-right: 0;
+    .footer__content-container {
+        padding-left: 146px;
+        padding-right: 146px;
     }
 }
