@@ -7,7 +7,7 @@ buttonMenu.onclick = function() {
     buttonMenuElements.forEach((buttonMenuElements) => {
         buttonMenuElements.classList.toggle("active");
     });
-}
+};
 
 
 //theme color switch
@@ -21,7 +21,7 @@ colorSwitch.onclick = function() {
     menuElements.forEach((menuElements) => {
         menuElements.classList.toggle("colored");
     });
-}
+};
 
 //Banner form validation
 
@@ -31,12 +31,12 @@ const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\
 
 form.addEventListener("submit", element => {
     validation();
-} )
+});
 
 form.addEventListener('mouseout', function removeClass() {
     form.classList.remove("invalid");
     form.classList.remove("valid");
-})
+});
 
 const validation = function () {
     let emailInputValue = document.getElementById("bannerInput").value;
@@ -47,7 +47,4 @@ const validation = function () {
         form.classList.remove("valid");
         form.classList.add("invalid");
     }
-}
-
-
-
+};
