@@ -1,3 +1,5 @@
+"use strict";
+
 //buttonMenu click animation
 
 var buttonMenu = document.getElementById("buttonMenu");
