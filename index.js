@@ -4,7 +4,7 @@
 
 var buttonMenu = document.getElementById("buttonMenu");
 
-buttonMenu.onclick = function() {
+buttonMenu.onclick = () => {
     var buttonMenuElements = document.querySelectorAll(".header__nav, .header__button__container, .buttonMenu, .color__switch");
     buttonMenuElements.forEach((buttonMenuElements) => {
         buttonMenuElements.classList.toggle("active");
@@ -17,7 +17,7 @@ buttonMenu.onclick = function() {
 const body = document.getElementById("body");
 const colorSwitch = document.getElementById("colorSwitch");
 
-colorSwitch.onclick = function() {
+colorSwitch.onclick = () => {
     body.classList.toggle("colored");
     var menuElements = document.querySelectorAll(".switched");
     menuElements.forEach((menuElements) => {
@@ -41,7 +41,7 @@ form.addEventListener('mouseout', function removeClass() {
     form.classList.remove("valid");
 });
 
-const validation = function () {
+const validation = () => {
     let emailInputValue = document.getElementById("bannerInput").value;
     if (emailInputValue.match(pattern)) {
         form.classList.add("valid");
