@@ -36,11 +36,6 @@ form.addEventListener("submit", element => {
     validation();
 });
 
-form.addEventListener('mouseout', function removeClass() {
-    form.classList.remove("invalid");
-    form.classList.remove("valid");
-});
-
 const validation = () => {
     let emailInputValue = document.getElementById("bannerInput").value;
     if (emailInputValue.match(pattern)) {
@@ -51,3 +46,12 @@ const validation = () => {
         form.classList.add("invalid");
     }
 };
+
+const classRemove = () => {
+    form.classList.remove("valid");
+    form.classList.remove("invalid");
+};
+
+form.addEventListener("mouseout", element => {
+    classRemove();
+});
